@@ -2,6 +2,8 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
+#branch: devLaur
+
 image = cv2.imread("C:\\Users\\amzar\\OneDrive\\Desktop\\Lanes Recognize\\test_image.jpg")
 lane_image = np.copy(image)
 
